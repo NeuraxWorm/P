@@ -1,0 +1,7 @@
+NumTextures: 6
+grass_2.png
+grass.png
+tree0.png
+tree1.png
+tree2.png
+tree3.png

@@ -1,0 +1,10 @@
+Background: hud_1024x768.png
+TButtonSell_on: button_on.png
+TButtonSell_off: button_off.png
+TButtonSell_size: 12
+TButtonUp_on: button_on.png
+TButtonUp_off: button_off.png
+TButtonUp_size: 12
+RangeSprite: range.png
+RangeScale: 0.01
+Cursor: sword.png

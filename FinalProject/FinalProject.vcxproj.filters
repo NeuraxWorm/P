@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Tilemap.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="FrontEndState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContext.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp" />
+    <ClCompile Include="Tower.cpp">
+      <Filter>Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularTower.cpp">
+      <Filter>Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="PointTower.cpp">
+      <Filter>Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashTower.cpp">
+      <Filter>Towers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Tilemap.h" />
+    <ClInclude Include="FrontEndState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContext.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h" />
+    <ClInclude Include="Tower.h">
+      <Filter>Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularTower.h">
+      <Filter>Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="PointTower.h">
+      <Filter>Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashTower.h">
+      <Filter>Towers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{8da62495-cf29-428d-839d-facb9656e3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{bdebec4f-dfe2-41c2-924d-35f7727e1829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Towers">
+      <UniqueIdentifier>{5b8045d7-870f-420a-923c-a5a67bc3407f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="level01.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="level02.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="texturepack01.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="towerpack01.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="hudpack01.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="texturepack02.txt">
+      <Filter>Data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sge.ini">
+      <Filter>Data</Filter>
+    </None>
+  </ItemGroup>
+</Project>
